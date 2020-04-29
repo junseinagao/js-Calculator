@@ -37,25 +37,43 @@ const deleteZero = () => {
 }
 
 /**
+ * Check the expression have number at the end.
+ */
+const checkExpression = () => {
+    if(" " === display.textContent.slice(-1)) {
+        return false;
+    }
+    return true;
+}
+
+/**
  * ========================================
  *  There are method of "other" class under.
  * ========================================
  */
 
 plus.onclick = () => {
+    if ( checkExpression() ) {
     display.textContent += " + ";
+    }
 }
 
 minus.onclick = () => {
+    if ( checkExpression() ) {
     display.textContent += " - ";
+    }
 }
 
 divide.onclick = () => {
+    if ( checkExpression() ) {
     display.textContent += " / ";
+    }
 }
 
 multiply.onclick = () => {
+    if ( checkExpression() ) {
     display.textContent += " * ";
+    }
 }
 
 equal.onclick = () => {
