@@ -4,8 +4,10 @@ table {
   margin-right: auto;
   border-radius: 6px;
   background-color: #5b5b5e;
-  min-width: 480px;
-  min-height: 660px;
+  width: 480px;
+  height: 660px;
+  table-layout: fixed;
+  word-wrap: break-word;
 }
 
 tr {
