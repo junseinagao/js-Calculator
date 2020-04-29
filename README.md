@@ -5,4 +5,8 @@ This is the calculator made by native JavaScirpt. I made this one for my practic
 ## Description
 
 The calculator calculate a expression that you input to use buttons by click when you click a equal button.
- 
+
+## Getting started
+
+You can see this one to use this url.
+https://junseinagao.github.io/js-Calculator/ 
